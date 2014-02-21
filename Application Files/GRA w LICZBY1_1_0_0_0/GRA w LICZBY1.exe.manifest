@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="GRA w LICZBY1.exe" version="1.0.0.0" publicKeyToken="284cc5c882d9ca7c" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GRA w LICZBY1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GRA w LICZBY1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GRA w LICZBY1.exe" size="5120">
+      <assemblyIdentity name="GRA w LICZBY1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SX9H90kO8O/g7/Qvjb+BKqQopYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=GRZESIK-C0056AF\GrzesikPiotr" issuerKeyHash="341b2a36f26039d5400f34f8f3d6a6c8ec93e0b3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Tgm9/bt6vkUwBuLIysE8ifEUn9A=</DigestValue></Reference></SignedInfo><SignatureValue>CYT1QwpnajxO8pi34NA4XZ8b/KJpFy62FUUhXa047DXLoWFoGblhLr4OHnV5jeElwX56G+2FZpC/2PYmvFuhiO5JiSMyUqU7Bs8VZrHWspGQ+6m18o7q50UyCpA6jK8fUQ2xMabpKFE6qgCP7c11p8Rwqzovkk10bcLCGNK/+n4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2KSobyVE+rl1zeDSpHqBbIQT4Hul0MW1ZpxZdKUO+CqQfZgfh/Z/vofM8FmShKWBIPTLrm0M5wBl0p2WmSvhoMi4nbwpdwh7gtxm5L7qY3TnbDnTlbWyvMIUdmvG7jqSxxBQ/LcBAsA4Y+URero9pzliEy9x8RP8P3lWIJBIoIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d09f14f1893cc1cac8e2063045be7abbfdbd094e" Description="" Url=""><as:assemblyIdentity name="GRA w LICZBY1.exe" version="1.0.0.0" publicKeyToken="284cc5c882d9ca7c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GRZESIK-C0056AF\GrzesikPiotr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4gVcNXp4LhmsqMqnVwjAYUf4WeU=</DigestValue></Reference></SignedInfo><SignatureValue>kJk5GsDl+iSvf2plrpVDpr4K3eJZPEY7Aiqcz+9v1/KX+ZWWJMlxhvF/TCwzKPKinXNT0dhk3K/3ouAhK+4SVy11T/RKEfmtWSR2pQ3DRWpgzhRPaI84HhN9cOv+0J2cAbwPz1Bn71f2KW+tFRTIxWfx4Baa87ds8sRbNqYP77k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2KSobyVE+rl1zeDSpHqBbIQT4Hul0MW1ZpxZdKUO+CqQfZgfh/Z/vofM8FmShKWBIPTLrm0M5wBl0p2WmSvhoMi4nbwpdwh7gtxm5L7qY3TnbDnTlbWyvMIUdmvG7jqSxxBQ/LcBAsA4Y+URero9pzliEy9x8RP8P3lWIJBIoIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAW6gAwIBAgIQFsvpv7mkvZhKf1Ut5+QpwzAJBgUrDgMCHQUAMEMxQTA/BgNVBAMeOABHAFIAWgBFAFMASQBLAC0AQwAwADAANQA2AEEARgBcAEcAcgB6AGUAcwBpAGsAUABpAG8AdAByMB4XDTEzMTAxNjE0NDcyMloXDTE0MTAxNjIwNDcyMlowQzFBMD8GA1UEAx44AEcAUgBaAEUAUwBJAEsALQBDADAAMAA1ADYAQQBGAFwARwByAHoAZQBzAGkAawBQAGkAbwB0AHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANikqG8lRPq5dc3g0qR6gWyEE+B7pdDFtWacWXSlDvgqkH2YH4f2f76HzPBZkoSlgSD0y65tDOcAZdKdlpkr4aDIuJ28KXcIe4LcZuS+6mN052w505W1srzCFHZrxu46kscQUPy3AQLAOGPlEXq6Pac5YhMvcfET/D95ViCQSKCJAgMBAAEwCQYFKw4DAh0FAAOBgQBSUx4Qr83uFZ52QljZ+msD8QTESWc5DnVEeC0+STU3QCIoAif5TPWiyudGzXV6bNGY6sbim/WDsnDFyRTMxzaH9Izr7b2wLg1SJW+sxYhlvdll542SpzLAz2E9Hts/bHVf/QmbJsYcff3wDIBnbOvaaAPXRSeICV38XoCczGT+cA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
